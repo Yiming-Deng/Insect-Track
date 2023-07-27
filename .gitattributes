@@ -1,0 +1,5 @@
+dist/main/cv2/cv2.pyd filter=lfs diff=lfs merge=lfs -text
+dist/main/mkl_avx512.1.dll filter=lfs diff=lfs merge=lfs -text
+dist/main/mkl_core.1.dll filter=lfs diff=lfs merge=lfs -text
+[[:space:]]dist/main/mkl_intel_thread.1.dll filter=lfs diff=lfs merge=lfs -text
+dist/main/mkl_pgi_thread.1.dll filter=lfs diff=lfs merge=lfs -text
