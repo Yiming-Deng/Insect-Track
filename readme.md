@@ -1,13 +1,13 @@
-#InsectTrack
-##Project Overview
+# InsectTrack
+## Project Overview
 The project completed the implementation of an insect detection and tracking software based on yolov8 and bot-sort, and supported labeling the area of interest and recording the number and time of insects entering the area. The software supports both camera-based real-time tracking detection and video-based tracking detection analysis. The specific usage method will be explained below.
 
 
-##Software Function
+## Software Function
 The object detection function of the software is based on the yolov8 object detection model, which supports the identification of other arbitrary objects by changing the model file. The area drawing function can draw multiple rectangular boxes (supporting addition, deletion, display and hiding) as areas of interest in the camera screen or video recording, record and time each target entering the area, and save the results to the form file after the detection is completed. The target tracking function can give a number to each detected target to distinguish different targets, so that the counting function is more accurate.
 
 
-##Instructions
+## Instructions
 
 
 1. Download "InsectTrack.zip" of InsectTrack Software in Releases and unzip it.
@@ -21,18 +21,18 @@ The object detection function of the software is based on the yolov8 object dete
 9. After the inspection is complete, a folder named after the time the inspection started will be generated in the save path with the trace result video, "result.csv", and "detail.csv". result.csv" counts the total number and time of insects that have entered each area;" Detail.csv "records each area, each target, and each entry time in detail.
 
 
-##Software Screenshot
+## Software Screenshot
 
 ![camera](/image/camera.png "Camera")
 
 ![video](/image/video.png "Video")
 
 
-##Else
+## Else
 
 If you find any problems or errors in use, please leave a comment.
 
 
-##Copyright and License
+## Copyright and License
 
 The code and documentation of this project are released under the MIT License. You are free to use and modify the code and documentation of this project as long as you comply with the license terms. Please acknowledge the source and author information of this project when using or distributing it.
