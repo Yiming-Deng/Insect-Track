@@ -669,7 +669,12 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow, FramelessWindow):
 
         desktop = QApplication.desktop().availableGeometry()
         w, h = desktop.width(), desktop.height()
-        self.move(w // 2 - self.width() // 2, h // 2 - self.height() // 2)
+        # self.move(w // 2 - self.width() // 2, h // 2 - self.height() // 2)
+        # print(w, h)
+        height = int(h * 0.8)
+        width = int(w * 0.65)
+
+        self.resize(width, height)
 
     def addSubInterface(self, interface, icon, text: str, position=NavigationItemPosition.TOP):
         """ add sub interface """
